@@ -14,7 +14,7 @@ header {
     padding: 20px 35px;
     background-color: #032529;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
   }
 
@@ -23,7 +23,7 @@ header {
       font-size: 36px;
       color: #084044;
       margin: 0;
-      justify-content: left;
+      justify-content: right;
   }
 
   header a {
@@ -47,4 +47,15 @@ header {
       margin: 0 30px;
       font-weight: lighter;
       font-size: 1.55vw;
+  }
+
+  /* hero */
+  .hero {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    background height: 400px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
