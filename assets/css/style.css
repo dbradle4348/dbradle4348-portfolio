@@ -9,7 +9,7 @@
     background-color: #d8d9e4;
   }
 
-    /* apply styles to <header> */
+    /* header */
 header {
     padding: 20px 35px;
     background-color: #032529;
@@ -80,7 +80,7 @@ header {
     font-size: 40px;
     color: #024e76;
     border-right: 3px solid;
-    padding-right: 80px;
+    padding-right: 50px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
@@ -91,6 +91,7 @@ header {
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .applications {
@@ -100,7 +101,7 @@ header {
   }
 
   .run-buddy-img {
-    width: 15%;
+      
 }
 
     /* footer*/
@@ -115,7 +116,7 @@ header {
       footer h1 {
           font-weight: bold;
           font-size: 36px;
-          color: #084044;
+          color: #79b5b9;
           margin: 0;
           justify-content: right;
       }
