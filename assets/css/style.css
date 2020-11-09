@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 
   body {
     color: #124d53;
     font-family: Helvetica, Arial, sans-serif;
+    background-color: #d8d9e4;
   }
 
     /* apply styles to <header> */
@@ -27,19 +27,20 @@ header {
   }
 
   header a {
-      text-decoration: none;
+      text-decoration: underline;
       color: #3b38fc;
   }
 
   header nav {
-      margin: 7px 0;
+      display: flex;
+        justify-content: flex-end;
+      margin: auto;
   }
 
  header nav ul {
    display: flex;
    flex-wrap: wrap;
-   justify-content: right;
-   align-items: center;
+   justify-content: flex-end;
    list-style: none;
  }
 
@@ -51,11 +52,94 @@ header {
 
   /* hero */
   .hero {
-    background-image: url("../images/run-buddy.jpg");
-    background-size: 100%;
-    background height: 400px;
-    background-position: center;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/hero.jpg");
+ }
+
+.hero-inner {
+    display: flex;
+    background: rgb(94, 77, 5);
+    align-items: right;
+    color: seashell;
+}
+
+.flex-row {
+    display: flex;
   }
+
+  .secondary-border {
+    border-color: #07353a;
+  }
+
+  .section-title {
+    font-size: 40px;
+    color: #024e76;
+    border-right: 3px solid;
+    padding-right: 80px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+
+  .me {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .applications {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    display: flex;
+  }
+
+  .run-buddy-img {
+    width: 15%;
+}
+
+    /* footer*/
+    footer {
+        padding: 20px 35px;
+        background-color: #032529;
+        display: flex;
+        flex-wrap: wrap;
+    
+      }
+    
+      footer h1 {
+          font-weight: bold;
+          font-size: 36px;
+          color: #084044;
+          margin: 0;
+          justify-content: right;
+      }
+    
+      footer a {
+          text-decoration: underline;
+          color: #3b38fc;
+      }
+    
+      footer nav {
+          display: flex;
+            justify-content: flex-end;
+          margin: auto;
+      }
+    
+     footer nav ul {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-end;
+       list-style: none;
+     }
+    
+      footer nav ul li a {
+          margin: 0 30px;
+          font-weight: lighter;
+          font-size: 1.55vw;
+      }
