@@ -58,7 +58,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/stand-in.jpg");
  }
 
 .hero-inner {
@@ -100,9 +100,7 @@ header {
     display: flex;
   }
 
-  .run-buddy-img {
-      
-}
+  
 
     /* footer*/
     footer {
